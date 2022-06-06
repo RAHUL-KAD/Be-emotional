@@ -4,8 +4,10 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install -r requirements.txt
+EXPOSE 8100
 
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 
-CMD ["python", "app.py"]
+RUN pip install -r requirements.txt
+
+CMD ["flask", "run", "--host=0.0.0.0", "--port=8100"]
