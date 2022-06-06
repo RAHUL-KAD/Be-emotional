@@ -13,5 +13,9 @@ Note : Make sure there is good lighting in the room to get better accuracy.
 
 Thats it ^_^
 
+## Referance:
+
+[To solve the camera error](https://stackoverflow.com/questions/62929645/unable-to-open-camera-using-cv2-videocapture0-in-docker-ubuntu-host)
+
 
 
