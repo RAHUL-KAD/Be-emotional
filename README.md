@@ -19,3 +19,6 @@ Thats it ^_^
 
 [Opencv error solution](https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo)
 
+[Assigining the ports so flask could run in docker](https://stackoverflow.com/questions/66269187/assigning-port-when-building-flask-docker-image)
+
+[Deploy docker image to heroku](https://blog.logrocket.com/build-deploy-flask-app-using-docker/)
