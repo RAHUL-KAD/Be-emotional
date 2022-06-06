@@ -17,5 +17,5 @@ Thats it ^_^
 
 [To solve the camera error](https://stackoverflow.com/questions/62929645/unable-to-open-camera-using-cv2-videocapture0-in-docker-ubuntu-host)
 
-
+[Opencv error solution](https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo)
 
