@@ -23,9 +23,9 @@ Note : Make sure there is good lighting in the room to get better accuracy.
 
         docker run -it --rm -p 8100:80 be-emotional
         
-We need to access your camera, in linux docker image doesn't have access to it. So using **--device /dev/video0** we can give access to video in docker.
+    We need to access your camera, in linux docker image doesn't have access to it. So using **--device /dev/video0** we can give access to video in docker.
 
-        docker run -it --rm --device /dev/video0 -p 8100:80 be-emotional
+         docker run -it --rm --device /dev/video0 -p 8100:80 be-emotional
 
 
 
