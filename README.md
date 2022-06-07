@@ -7,9 +7,27 @@ Then the saved model was used to perform emotion detection from webcamera input 
 
 Dataset Downloaded from : [link](https://www.kaggle.com/deadskull7/fer2013)
 
-
-
 Note : Make sure there is good lighting in the room to get better accuracy.
+
+## How to use it
+1. Clone the github repo and cd into it
+  
+        git clone https://github.com/RAHUL-KAD/Be-emotional.git
+        cd Be-emotional
+
+2. Build a docker image *(assuming you have docker installed)*
+
+        docker build -t be-emotional .
+        
+3. Run docker image
+
+        docker run -it --rm -p 8100:80 be-emotional
+        
+We need to access your camera, in linux docker image doesn't have access to it. So using **--device /dev/video0** we can give access to video in docker.
+
+        docker run -it --rm --device /dev/video0 -p 8100:80 be-emotional
+
+
 
 Thats it ^_^
 
