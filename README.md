@@ -9,6 +9,12 @@ Dataset Downloaded from : [link](https://www.kaggle.com/deadskull7/fer2013)
 
 Note : Make sure there is good lighting in the room to get better accuracy.
 
+## Demo
+
+https://user-images.githubusercontent.com/63397654/172632483-ebff4709-afd0-427e-a13e-bed4bf68a5df.mp4
+
+
+
 ## How to use it
 1. Clone the github repo and cd into it
   
