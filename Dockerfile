@@ -1,8 +1,17 @@
 FROM tensorflow/tensorflow:latest
 
+WORKDIR app
+
+COPY . /app
+
+RUN apt-get update
+
 RUN apt-get install ffmpeg libsm6 libxext6  -y
 
-RUN pip install -r requirements.txt
+RUN pip install --upgrade pip
+
+RUN pip install -r requirements.txt 
+
 
 # if we create a directory after installing requiremnets then next time when we run docker file we don't have to install requiremnts again
 
